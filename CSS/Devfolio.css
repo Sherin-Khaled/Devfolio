@@ -1,0 +1,183 @@
+.section1 {
+    
+    background-image: url(../Images/photo\ manipulation\ 2-Recovered.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section1 img {
+    width: 100%;
+    height: auto;
+}
+
+.inner:hover .bordericon {
+    color: rgb(183, 221, 250);
+    
+}
+
+.bordericon {
+    transition: all 800ms ease-out;
+    color: #007aff;
+}
+
+.iconhover {
+    color: #02448b;
+    transition: all 800ms ease-out;
+}
+
+.inner:hover .iconhover {
+    color: white;
+    
+}
+
+.solidicon {
+    opacity: 0;
+    z-index: -1;
+    transition: all 800ms ease-out;
+}
+
+.inner:hover .solidicon {
+    opacity: 1;
+}
+
+
+.borderline {
+    width: 40px;
+    justify-self: center;
+}
+
+.background3 {
+    
+    background-image: url(../Images/Museum-Recovered\ 4\ with\ exposure.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.textincard::after{
+    content: '/ 18Sep.2018';
+    color: grey;
+}
+
+.imageincard {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 1s ease-out;
+    cursor: pointer;
+}
+
+.inner4:hover img {
+     transform: scale(1.5);
+}
+
+.backgroundimg {
+    background-image: url(../Images/Museum-Recovered\ 4\ with\ exposure.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.imagecircle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+/*
+.carousel-item>*{
+    transition: all 0.8s ease-in-out;
+}
+
+.carousel-item.active>* {
+    transform: translateX(0px);
+}
+
+.carousel-item:not(.active)>*{        al star de m3naha al3b fe aly gowa al item msh al item zat nafso
+     transform: translateX(100%);
+}*/
+
+#carouselExampleAutoplaying .carousel-item {
+    transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
+  }
+  
+  #carouselExampleAutoplaying.carousel-fade .carousel-item {
+    transition: opacity 0.8s ease-in-out;
+  }
+
+  #carouselExampleAutoplaying .carousel-indicators .buttoncircle {          /*We mention the id name to make it has higher CSS priority so we affects on the button*/
+    width: 12px;              
+  height: 12px;
+  border-radius: 50%;       
+  background-color: rgba(255,255,255,0.6);
+  border: none;
+  margin: 0 4px;            
+  transition: background-color .3s;
+}
+
+.buttoncircle.active {
+    background-color: #fff;
+  }
+
+.text-align {
+    align-items: center;
+}
+
+.badgetext {
+    transform: translateX(50%);
+}
+
+.textchangecolor:hover {
+    color: #007aff;
+    cursor: pointer;
+}
+
+.textchangecolor {
+    
+    transition: all 1s ease-out;
+}
+
+.borderlineinform {
+    width: 70px;
+    
+}
+
+.iconsinfo {
+    width: 20px;
+    
+}
+
+
+.sicons:hover .sbordericon {
+    color: rgb(183, 221, 250);
+    
+}
+
+.sbordericon {
+    transition: all 800ms ease-out;
+    color: #007aff;
+}
+
+.sicon:hover {
+    color: #02448b;
+    transition: all 800ms ease-out;
+}
+
+.sicons:hover .siconhover {
+    color: white;
+    
+}
+
+.ssolidicon {
+    opacity: 0;
+    z-index: -1;
+    transition: all 800ms ease-out;
+}
+
+.sicons:hover .ssolidicon {
+    opacity: 1;
+}
